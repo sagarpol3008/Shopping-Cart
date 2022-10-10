@@ -141,6 +141,9 @@ header{
     position: absolute;
     top: 1rem;
     right: 0.8rem;
+    font-size: 2rem;
+    color: var(--text-color);
+    cursor: pointer;
 }
 /*accessing section-title class*/
 .section-title{
