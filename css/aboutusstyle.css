@@ -50,7 +50,7 @@ section {
   border-radius: 12px;
 }
 .image {
-  background-color: #12192c;
+  background-color: white;
 
   display: flex;
 
@@ -138,68 +138,12 @@ section {
 .links li a {
   text-transform: uppercase;
 
-<<<<<<< Updated upstream
     background-color: white;
   
     display: flex;
   
     border-radius: 12px 0 0 12px;
   
-=======
-  color: #fff;
-
-  text-decoration: none;
-}
-
-.links li:hover {
-  border-color: #c850c0;
-}
-
-.vertical-line {
-  height: 30px;
-
-  width: 3px;
-
-  background: #c850c0;
-
-  margin: 0 auto;
-}
-
-.icons {
-  display: flex;
-
-  padding: 15px 0;
-}
-
-.icons li {
-  display: block;
-
-  padding: 5px;
-
-  margin: 5px;
-}
-
-.icons li i {
-  font-size: 26px;
-
-  opacity: 0.8;
-}
-
-.icons li i:hover {
-  color: #c850c0;
-
-  cursor: pointer;
-}
-
-/*****************/
-
-@media (max-width: 900px) {
-  section {
-    grid-template-columns: 1fr;
-
-    width: 100%;
-    border-radius: none;
->>>>>>> Stashed changes
   }
 
   .image {
@@ -243,7 +187,6 @@ section {
   .icons li i {
     font-size: 15px;
   }
-<<<<<<< Updated upstream
  
   @media (max-width: 900px) {
   
@@ -253,9 +196,6 @@ section {
   
       width: 100%;
       border-radius: none;
-=======
-}
->>>>>>> Stashed changes
 
 .credit {
   text-align: center;
