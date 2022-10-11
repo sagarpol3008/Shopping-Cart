@@ -172,7 +172,7 @@ header {
 }
 .product-box {
   position: relative;
-  background:white;
+  background: white;
 }
 .product-box:hover {
   padding: 10px;
@@ -270,7 +270,3 @@ header {
     width: 280px;
   }
 }
-
-
-
-
