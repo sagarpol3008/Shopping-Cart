@@ -64,9 +64,6 @@
   outline: none;
 
 }
-
-
-
 body {
 
   margin: 0;
@@ -84,9 +81,6 @@ body {
   font-weight: 300;
 
 }
-
-
-
 #login-box {
 
   position: relative;
@@ -104,9 +98,6 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 
 }
-
-
-
 .left {
 
   position: absolute;
@@ -123,9 +114,6 @@ body {
   height: 400px;
 
 }
-
-
-
 h1 {
 
   margin: 0 0 20px 0;
@@ -135,9 +123,6 @@ h1 {
   font-size: 28px;
 
 }
-
-
-
 input[type="text"],
 
 input[type="password"] {
@@ -150,7 +135,7 @@ input[type="password"] {
 
   padding: 4px;
 
-  width: 220px;
+  width: 500px;
 
   height: 32px;
 
@@ -167,9 +152,6 @@ input[type="password"] {
   transition: 0.2s ease;
 
 }
-
-
-
 input[type="text"]:focus,
 
 input[type="password"]:focus {
@@ -180,9 +162,6 @@ input[type="password"]:focus {
   transition: 0.2s ease;
 
 }
-
-
-
 input[type="submit"] {
 
   margin-top: 28px;
@@ -210,9 +189,6 @@ input[type="submit"] {
   cursor: pointer;
 
 }
-
-
-
 input[type="submit"]:hover,
 
 input[type="submit"]:focus {
@@ -224,9 +200,6 @@ input[type="submit"]:focus {
   transition: 0.1s ease;
 
 }
-
-
-
 input[type="submit"]:active {
 
   opacity: 1;
@@ -235,60 +208,6 @@ input[type="submit"]:active {
 
   transition: 0.1s ease;
 }
-.or {
-
-    position: absolute;
-  
-    top: 180px;
-  
-    left: 280px;
-  
-    width: 40px;
-  
-    height: 40px;
-  
-    background: #ddd;
-  
-    border-radius: 50%;
-  
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-  
-    line-height: 40px;
-  
-    text-align: center;
-  
-  }
-  
-  
-  
-  .right {
-  
-    position: absolute;
-  
-    top: 0;
-  
-    right: 0;
-  
-    box-sizing: border-box;
-  
-    padding: 40px;
-  
-    width: 300px;
-  
-    height: 400px;
-  
-    background: url("https://goo.gl/YbktSj");
-  
-    background-size: cover;
-  
-    background-position: center;
-  
-    border-radius: 0 2px 2px 0;
-  
-  }
-  
-  
-  
   .right .loginwith {
     display: block;
 
@@ -301,9 +220,6 @@ input[type="submit"]:active {
     text-align: center;
   
   }
-  
-  
-  
   button.social-signin {
   
     margin-bottom: 20px;
@@ -330,7 +246,7 @@ input[type="submit"]:active {
   
   
   
-  button.social-signin:hover,
+/*  button.social-signin:hover,
   
   button.social-signin:focus {
   
@@ -369,4 +285,4 @@ input[type="submit"]:active {
   
     background: #dd4b39;
   
-  }
+  }*/
