@@ -22,8 +22,9 @@ body {
 }
 .container {
   max-width: 1068px;
-  margin: auto;
+  /*margin: auto;*/
   width: 100%;
+  background: orange;
 }
 /*accessing section tag*/
 section {
@@ -45,12 +46,14 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 20px 0;
+  background: white;
 }
 /*accessing class logo*/
 .logo {
   font-size: 1.1rem;
   color: var(--text-color);
   font-weight: 400;
+  padding-left: 15px;
 }
 /*accessing cartIcon by id*/
 #cart-icon {
@@ -165,9 +168,11 @@ header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, auto));
   gap: 1.5rem;
+  padding-left: 10px;
 }
 .product-box {
   position: relative;
+  background:white;
 }
 .product-box:hover {
   padding: 10px;
@@ -201,7 +206,6 @@ header {
   background: hsl(249, 32%, 17%);
 }
 /* BREAKPOINTS / MAKING RESPONSIVE */
-
 @media (max-width: 1080px) {
   .nav {
     padding: 15px;
@@ -217,7 +221,36 @@ header {
     margin-top: 2rem !important;
   }
 }
+@media (max-width: 400px) {
+  .nav {
+    padding: 11px;
+  }
+  .logo {
+    font-size: 1rem;
+  }
+  .cart {
+    width: 320px;
+  }
+}
+@media (max-width: 360px) {
+  .shop {
+    margin-top: 1rem !important;
+  }
+  .cart {
+    width: 280px;
+  }
+}
 
+/* HOME PAGE DESIGN */
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7));
+}
 @media (max-width: 400px) {
   .nav {
     padding: 11px;
